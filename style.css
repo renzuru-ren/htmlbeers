@@ -1,0 +1,44 @@
+	table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+#btn-show-all-children{
+	background-color: green;
+}
+
+#btn-hide-all-children{
+	background-color: red;
+}
+
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+input{
+	padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
